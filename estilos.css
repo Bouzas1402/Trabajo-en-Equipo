@@ -1,6 +1,33 @@
-p {
-    color: blue;
+.box {
+    float: left;
+    height: 80vh;
+}
+.central {
+    width: 60%;
+    background-color: #514d4d;
+}
+.laterales {
+    background-color: #6e1b1b;
+    width: 20%;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.open {
+    height: 15vh;
+    background-color: #ef7409;
+
+}
+.close {
+ height: 5vh;
 }
 body {
-    color: brown;
+    background-color: #6895be;
+}
+h1 {
+vertical-align: middle;
+    text-align: center;
+    position: center;
+    
 }
