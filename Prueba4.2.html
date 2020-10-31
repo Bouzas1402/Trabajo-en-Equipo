@@ -6,17 +6,28 @@
     <link href="estilos.css" rel="stylesheet">
 </head>
 <body>
-<<<<<<< HEAD
+<div class="open">
+    <br><br><br>
+    <h1>FORMULARIO DE INSCRIPCIÓN</h1>
+</div>
 
-=======
-<form action="" method="get">
-    <fieldset>
+    <div>
+        <form action="/action_page.php" method="get">
+        <div class="box laterales"><p>rtrtr</p></div>
+
+        <div class="box central">
+            <fieldset>
         <legend>Datos personales :</legend>
-    <label>DNI : <input type="text" name="DNI" placeholder="Escriba su DNI"></label> <br>
+<br>
 <label>Apellido : <input type="text" name="Apellidos" placeholder="Escribir sus apellidos" maxlength="30"></label>
+                &nbsp; &nbsp;
     <label>Nombre : <input type="text" name="Nombre" placeholder="Escribir su nombre" maxlength="10"></label>
+   <br><br>
     <p>Fecha de Nacimiento : <input type="date" name="FdNacimiento"></p>
-   <p> Nacionalidad : <select name="Nacionalidad">
+   <br>
+                <label>DNI : <input type="text" name="DNI" placeholder="Escriba su DNI"></label>
+                <br><br>
+                <p> Nacionalidad : <select name="Nacionalidad">
         <option value="Alm">Aleman</option>
         <option value="Aus">Austriaco</option>
         <option value="Blg">Belga</option>
@@ -36,6 +47,7 @@
         <option value="Ucr">Ucrania</option>
         <option value="Otros">Otros</option>
    </select></p>
+                <br>
     <p>Sexo :
         <input type="radio" name="sexo" value="H">Hombre
         <input type="radio" name="sexo" value="M"> Mujer
@@ -43,24 +55,32 @@
     </fieldset>
     <br>
     <fieldset><legend>Datos de contacto :</legend>
-    <label>Correo : <input type="email" name="Correoelectronico" placeholder="Escribaqui@sucorreo.com"></label>
-        <br>
+    <br>
+        <label>Correo : <input type="email" name="Correoelectronico" placeholder="Escribaqui@sucorreo.com"></label>
+        <br><br>
         <label>Telefono: <p>Telefono fijo :<input type="tel" name="telefonocasa" placeholder="Telefono de casa">
         Telefono movil :<input type="tel" name="telefonomovil" placeholder="Telefono movil"></p></label>
     </fieldset>
-    <br>
+        </div>
+            <div class="box laterales">
+                <br>
     <fieldset><legend>Ultimos datos :</legend>
-    <label>Contraseña : <input type="password" name="Contraseña" placeholder="*******" maxlength="10"></label>
+    <br>
+        <label>Contraseña : <input type="password" name="Contraseña" placeholder="*******" maxlength="10"></label>
+    <br><br>
+        <textarea name="Observaciones" rows="7" cols="40" placeholder="Escriba alguna observación"></textarea>
         <br>
-    <textarea name="Observaciones" rows="7" cols="40" placeholder="Escriba alguna observación"></textarea>
     <p>¿Desea recibir informacion en su correo? <input type="checkbox" name="confirmar" value="si" checked></p>
     </fieldset>
     <br>
     <fieldset>
         <legend>¿Que desea hacer?</legend>
-    <button type="submit" value="enviar">Enviar</button>
-    <button type="reset" value="borrar">Borrar</button>
+    <br>
+      <div align="center">  <button type="submit" value="enviar">Enviar</button> &nbsp; &nbsp;
+    <button type="reset" value="borrar">Restablecer</button></div>
     </fieldset>
+        </div>
 </form>
+</div>
 </body>
 </html>

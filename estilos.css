@@ -31,3 +31,8 @@ vertical-align: middle;
     position: center;
     
 }
+legend {
+    color: aliceblue;
+    font-size: x-large;
+    font-weight: bold;
+}
