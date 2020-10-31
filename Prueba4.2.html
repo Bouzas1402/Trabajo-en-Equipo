@@ -6,24 +6,58 @@
     <link href="estilos.css" rel="stylesheet">
 </head>
 <body>
-<table>
-    <thead>
-    <tr>
-    <th colspan="3">rgfgdfg</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td rowspan="0">fgfdgf</td>
-        <td>fdgfgs</td>
-        <td rowspan="0">fdgfgsf</td>
-    </tr>
-</tbody>
-    <tfoot>
-    <tr>
-        <td>sdfgfgfd</td>
-    </tr>
-    </tfoot>
-</table>
+<form action="" method="get">
+    <fieldset>
+        <legend>Datos personales :</legend>
+    <label>DNI : <input type="text" name="DNI" placeholder="Escriba su DNI"></label> <br>
+<label>Apellido : <input type="text" name="Apellidos" placeholder="Escribir sus apellidos" maxlength="30"></label>
+    <label>Nombre : <input type="text" name="Nombre" placeholder="Escribir su nombre" maxlength="10"></label>
+    <p>Fecha de Nacimiento : <input type="date" name="FdNacimiento"></p>
+   <p> Nacionalidad : <select name="Nacionalidad">
+        <option value="Alm">Aleman</option>
+        <option value="Aus">Austriaco</option>
+        <option value="Blg">Belga</option>
+        <option value="Blg">Bulgaro</option>
+        <option value="Esp" selected>Español</option>
+        <option value="Grg">Griego</option>
+        <option value="Hng">Hungaro</option>
+        <option value="Frch">Frances</option>
+        <option value="RU">Ingles</option>
+        <option value="Irl">Irlandes</option>
+        <option value="Itl">Italiano</option>
+        <option value="PB">Neerlandes</option>
+        <option value="Ptg">Portugues</option>
+        <option value="Pln">Polaco</option>
+        <option value="Rum">Rumano</option>
+        <option value="Sui">Suizo</option>
+        <option value="Ucr">Ucrania</option>
+        <option value="Otros">Otros</option>
+   </select></p>
+    <p>Sexo :
+        <input type="radio" name="sexo" value="H">Hombre
+        <input type="radio" name="sexo" value="M"> Mujer
+    </p>
+    </fieldset>
+    <br>
+    <fieldset><legend>Datos de contacto :</legend>
+    <label>Correo : <input type="email" name="Correoelectronico" placeholder="Escribaqui@sucorreo.com"></label>
+        <br>
+        <label>Telefono: <p>Telefono fijo :<input type="tel" name="telefonocasa" placeholder="Telefono de casa">
+        Telefono movil :<input type="tel" name="telefonomovil" placeholder="Telefono movil"></p></label>
+    </fieldset>
+    <br>
+    <fieldset><legend>Ultimos datos :</legend>
+    <label>Contraseña : <input type="password" name="Contraseña" placeholder="*******" maxlength="10"></label>
+        <br>
+    <textarea name="Observaciones" rows="7" cols="40" placeholder="Escriba alguna observación"></textarea>
+    <p>¿Desea recibir informacion en su correo? <input type="checkbox" name="confirmar" value="si" checked></p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>¿Que desea hacer?</legend>
+    <button type="submit" value="enviar">Enviar</button>
+    <button type="reset" value="borrar">Borrar</button>
+    </fieldset>
+</form>
 </body>
 </html>
