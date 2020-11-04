@@ -1,4 +1,6 @@
-# ***Trabajo-en-Equipo***
+
+
+#***Trabajo-en-Equipo***
 
 ## *Objetivos de este proyecto:*
 
@@ -19,6 +21,6 @@ Lo que hemos realizado en este proyecto es lo siguiente:
  3. En la práctica Formularios:
     * Esta práctica la realizamos en los cambios que fuimos realizando para hacer la practica anterior.
  
- ###Observaciones:
+#Observaciones:
 Debido a que en el Git.com la rama principal se llama main y en mi consola es master cometí el error de hacer un push a la rama master de git creyendo que lo hacia a la principal (en este caso era main), la consecuencia fue que se me creo una rama master con los cambios en el repositorio remoto.
 Lo soluciones fusionando las ramas en local y forzando el push, lo tuve que forzar porque el repositorio remoto apuntaba a otro momento respecto a mi ropositorio local.  
